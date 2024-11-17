@@ -1,1 +1,6 @@
-
+my_string = input('Привет, я бот ')
+print(len(my_string))
+print('Привет, я бот '.upper())
+print('Привет, я бот '.lower())
+print('Привет, я бот '.replace(' ',''))
+print(my_string[0])
