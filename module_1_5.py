@@ -4,7 +4,8 @@ print(immutable_var)
 #print(immutable_var)
 mutable_list =  5, 7, 8
 print(mutable_list)
-mutable_list = ([5, 6], 7)
+mutable_list = ['apple', 'coconut', 'banana']
+print(type(mutable_list ))
 print(mutable_list)
-mutable_list[0][0] = 8
+mutable_list[0] = 'strawberry'
 print(mutable_list)
