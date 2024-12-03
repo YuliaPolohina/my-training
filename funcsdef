@@ -1,0 +1,21 @@
+def print_params(a = 1, b = 'строка', c = True): # *args, **kwargs - упаковка/расаковка обьекта или элемента
+       print(a, b, c)
+
+
+print_params()
+print_params('Urban', 7, False)
+print_params(45, 'Yuli')
+print()
+
+print_params(b = 25)
+print_params(c = [1,2,3])
+print()
+
+values_list_ = ("Ton", 56.9, False)
+values_dict_ = {'a': 7, 'b': 8, 'c': 9}
+print_params(*values_list_)
+print_params(**values_dict_)
+print()
+
+values_list_2_ = ('Yuli', 56.9)
+print_params(*values_list_2_, 61)
